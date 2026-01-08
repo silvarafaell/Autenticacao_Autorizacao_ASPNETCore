@@ -15,3 +15,13 @@ Curso Autenticação e Autorização com ASP.NET Core no nextwave(LuisDEV)
      - Biometria
    - Podem ser utilizadas através da abordagem de autenticação multifator(MFA), que combina dois ou mais metodos de verificação, como senha e códigos enviados por SMS, para          aumentar a segurança.
    - O resultado da autenticação bem-sucedida é uma identidade verificada, muitas vezes representada por um token ou sessão ativa.
+ - O que é Autorização ?
+   - É o processo de se conceder permissão a um usuário autenticado.
+   - Essa permissão póde envolver dados e/ou funcionalidades, entre outros recursos
+   - Por exemplo, no nosso projeto prático, usuários freelancers devem ter permissões diferentes de clientes, por exemplo
+      - É essencial garantir que usuários não tenham acesso indevido em nossos sistemas
+  - Autenticação x Autorização
+    - Autenticação: "Você é quem diz ser ?"
+       - Código de Erro: 401 Unauthorized
+    - Autorização: "Você tem permissão para fazer isso?"
+       - Código de Erro: 403 Forbidden
