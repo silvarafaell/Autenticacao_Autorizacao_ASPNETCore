@@ -25,3 +25,13 @@ Curso Autenticação e Autorização com ASP.NET Core no nextwave(LuisDEV)
        - Código de Erro: 401 Unauthorized
     - Autorização: "Você tem permissão para fazer isso?"
        - Código de Erro: 403 Forbidden
+       
+### O que é JWT 
+ - JSON Web Token (JWT)
+ - É um padrão aberto que especifica uma maneira de transmitir dados entre partes de forma segura e compacta através de um objeto JSON
+ - Por exemplo, pode ser utilizado para troca entre uma aplicação front-end e uma back-end, ou mesmo entre duas aplicações back-end
+ - Amplamente utilizado para autenticação e autorização em aplicações .NET, e mesmo em outras tecnologias.
+ - Estrutura do JSON Web Token (JWT)
+   - Header: Define o tipo de token e o algoritmo de assinatura utilizado, e é codificado para Base64Url
+   - Playload: Define as Claims, que são basicamente dados sobre o usuário e dados adicionais, e é convertido para Base64Url
+   - Signature: É obtido através do cabeçalho e payload codificados, um código secreto, o algoritmo especificado no cabeçalho, e então assinado com um algoritmo como HMAC         SHA256
