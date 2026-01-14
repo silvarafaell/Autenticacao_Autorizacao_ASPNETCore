@@ -34,4 +34,9 @@ Curso Autenticação e Autorização com ASP.NET Core no nextwave(LuisDEV)
  - Estrutura do JSON Web Token (JWT)
    - Header: Define o tipo de token e o algoritmo de assinatura utilizado, e é codificado para Base64Url
    - Playload: Define as Claims, que são basicamente dados sobre o usuário e dados adicionais, e é convertido para Base64Url
-   - Signature: É obtido através do cabeçalho e payload codificados, um código secreto, o algoritmo especificado no cabeçalho, e então assinado com um algoritmo como HMAC         SHA256
+   - Signature: É obtido através do cabeçalho e payload codificados, um código secreto, o algoritmo especificado no cabeçalho, e então assinado com um algoritmo como HMAC SHA256
+   
+### Gerando Migrations para Login - Pratica
+ - No projeto DevFreela.Infrastructure execute os comandos:
+   - dotnet ef migrations add AddLoginInfo -s ../DevFreela.API
+   - dotnet ef database update -s ../DevFreela.API
