@@ -40,3 +40,11 @@ Curso Autenticação e Autorização com ASP.NET Core no nextwave(LuisDEV)
  - No projeto DevFreela.Infrastructure execute os comandos:
    - dotnet ef migrations add AddLoginInfo -s ../DevFreela.API
    - dotnet ef database update -s ../DevFreela.API
+
+### Fundamentos de Recuperação de Senha
+ - A recuperação de senhas é uma funcionalidade essencial para ajudar usuários que esqueceram suas credenciais.
+ - Elementos da Recuperação de Senhas
+   - Solicitação de redefinição:
+     - O usuário fornece um identificador, como email ou nome de usuário.
+     - Um mecanismo de validação, como um token ou link, é enviado ao usuário por um canal seguro.
+   - Validação: 
