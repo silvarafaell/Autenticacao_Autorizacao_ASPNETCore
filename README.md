@@ -47,4 +47,8 @@ Curso Autenticação e Autorização com ASP.NET Core no nextwave(LuisDEV)
    - Solicitação de redefinição:
      - O usuário fornece um identificador, como email ou nome de usuário.
      - Um mecanismo de validação, como um token ou link, é enviado ao usuário por um canal seguro.
-   - Validação: 
+   - Validação:
+     - O sistema verifica a validade do token ou link, sua não expiração e se ele pertence ao usuário correto.
+   - Redefinição da senha:
+     - O usuário define uma nova senha que atende aos critérios de segurança.
+ - Considerações de Segurança
