@@ -52,3 +52,7 @@ Curso Autenticação e Autorização com ASP.NET Core no nextwave(LuisDEV)
    - Redefinição da senha:
      - O usuário define uma nova senha que atende aos critérios de segurança.
  - Considerações de Segurança
+   - Tokens Expirados: Configure tokens para expirarem após um período razoável(ex: 24 horas).
+   - Senha Forte: Exija que as novas senhas sigam boas práticas de segurança(comprimento mínimo, caracteres especiais, etc)
+   - Hashing de Senhas: Sempre armazene senhas usando algoritmos de hash seguros.
+   - Auditoria: Registre tentativas de redefinição para monitorar possíveis abusos.
