@@ -1,4 +1,5 @@
-Curso Autenticação e Autorização com ASP.NET Core no nextwave(LuisDEV)
+Curso Autenticação e Autorização com ASP.NET Core no nextwave(LuisDEV) 
+ - Aprenda sobre autenticação e autorização com ASP.NET Core, Identity e JWT.
 
 ### Apresentação do curso
  - Em um mundo cada vez mais conectado e dependente de APIs e sistemas distribuidos, a segurança é um dos pilares fundamentais do desenvolvimento de software
